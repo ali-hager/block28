@@ -15,8 +15,21 @@ body > div {
   display: flex;
 }
 #navbar {
-  padding: 2em;
-  justify-content: space-evenly;
+  /* padding: 2em; */
+  font-size: 1rem;
+  line-height: 1.375;
+  background: #666;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer {
+  font-size: 1rem;
+  line-height: 1.375;
+  background: #666;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 #main-section {
   flex-grow: 1;
@@ -35,7 +48,11 @@ body > div {
   background-color: #275db3;
   color: white;
 }
-.home{
+.green {
+  background-color: rgb(96, 172, 96);
+  color: white;
+}
+.home {
   background-color: black;
   color: white;
 }
